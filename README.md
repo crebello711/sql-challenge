@@ -2,7 +2,7 @@
 
 In this challenge, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-1. Data Modeling and Data Engineering
+## 1. Data Modeling and Data Engineering
 
    ```Database Design Diagram```
    
@@ -13,7 +13,7 @@ In this challenge, you will design the tables to hold data in the CSVs, import t
    The ```Table schemata``` is located here [schemaQuery.sql](EmployeeSQL/DataAnalysis/schemaQuery.sql)
 
 
-2.  Data Analysis
+## 2.  Data Analysis
 
    * List the following details of each employee: employee number, last name, first name, sex, and salary
    * List first name, last name, and hire date for employees who were hired in 1986
