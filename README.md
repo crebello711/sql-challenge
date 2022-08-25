@@ -2,16 +2,16 @@
 
 In this challenge, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-1. Data Modeling 
+1. Data Modeling and Data Engineering
 
    ```Database Design Diagram```
    
    ![Test](https://github.com/crebello711/sql-challenge/blob/main/EmployeeSQL/QuickDBD-export.png)
     
    To download [Database Design Diagram](EmployeeSQL/QuickDBD-export.png).
-2. Data Engineering
 
-3. Data Analysis
+
+2. Data Analysis
 
    * List the following details of each employee: employee number, last name, first name, sex, and salary
    * List first name, last name, and hire date for employees who were hired in 1986
