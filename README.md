@@ -4,7 +4,7 @@ In this challenge, you will design the tables to hold data in the CSVs, import t
 
 1. Data Modeling
    To download [Database Design Diagram](EmployeeSQL/QuickDBD-export.png).
-   ![Test](https://github.com/crebello711/sql-challenge/blob/main/EmployeeSql/QuickDBD-export.png.png)
+   ![Test](https://github.com/crebello711/sql-challenge/blob/main/EmployeeSQL/QuickDBD-export.png)
 
 2. Data Engineering
 
