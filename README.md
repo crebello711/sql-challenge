@@ -8,9 +8,9 @@ In this challenge, you will design the tables to hold data in the CSVs, import t
    
    ![Test](https://github.com/crebello711/sql-challenge/blob/main/EmployeeSQL/QuickDBD-export.png)
     
-   ### To download [Database Design Diagram](EmployeeSQL/QuickDBD-export.png).
+   To download [Database Design Diagram](EmployeeSQL/QuickDBD-export.png).
    
-   ### The ```Table schemata``` is located here [schemaQuery.sql](EmployeeSQL/DataAnalysis/schemaQuery.sql)
+   The ```Table schemata``` is located here [schemaQuery.sql](EmployeeSQL/DataAnalysis/schemaQuery.sql)
 
 
 2.  Data Analysis
