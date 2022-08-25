@@ -2,8 +2,8 @@
 
 In this challenge, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-[Data Modeling]
+1. Data Modeling
 
-[Data Engineering]
+2. Data Engineering
 
-[Data Analysis]
+3. Data Analysis
