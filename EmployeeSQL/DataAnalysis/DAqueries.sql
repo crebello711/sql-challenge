@@ -1,7 +1,7 @@
 -- Data Analysis
 
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
--- Select * FROM employees;
+Select * FROM employees;
 -- Select * FROM salaries;
 SELECT e.emp_no,e.last_name,e.first_name,e.sex,s.salary
 FROM employees e
@@ -43,9 +43,27 @@ FROM employees
 WHERE first_name ='Hercules' AND last_name LIKE 'B%';
 
 -- List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
+SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
+FROM employees e
+LEFT JOIN dept_emp de
+ON e.emp_no = de.emp_no
+LEFT JOIN departments d
+ON de.dept_no = d.dept_no
+WHERE d.dept_name= 'Sales'
+ORDER BY emp_no;
 
 -- List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
+SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
+FROM employees e
+LEFT JOIN dept_emp de
+ON e.emp_no = de.emp_no
+LEFT JOIN departments d
+ON de.dept_no = d.dept_no
+WHERE d.dept_name IN ('Sales','Development')
+ORDER BY emp_no;
 
 -- List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
+SELECT last_name, COUNT(*) AS frequency_count
+FROM employees
+GROUP BY last_name
+ORDER BY frequency_count DESC;
